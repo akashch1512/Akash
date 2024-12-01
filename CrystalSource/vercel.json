@@ -1,7 +1,7 @@
 {
     "builds": [
         {
-            "src": "CrystalReadymade/wsgi.py",  
+            "src": "CrystalSource/wsgi.py",  
             "use": "@vercel/python",
             "config": {
                 "maxLambdaSize": "10mb",  
@@ -12,7 +12,7 @@
     "routes": [
         {
             "src": "/(.*)",  
-            "dest": "CrystalReadymade/wsgi.py"  
+            "dest": "CrystalSource/wsgi.py"  
         }
     ]
 }
