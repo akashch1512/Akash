@@ -6,14 +6,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Simple HTML with External CSS</title>
     <!-- Linking External CSS -->
-    <link rel="stylesheet" href="{% static 'CrystalShop/css/style.css' %}">
+    <link rel="stylesheet" href="{% static '/CrystalShop/css/style.css' %}">
 </head>
 <body>
     <div class="container">
         <h1>Welcome to Django!</h1>
         <p>This is a simple example of external CSS and image functionality.</p>
         <!-- Displaying Image -->
-        <img src="{% static 'CrystalShop/image/example.jpg' %}" alt="Example Image" class="image">
+        <img src="{% static '/CrystalShop/image/example.jpg' %}" alt="Example Image" class="image">
     </div>
 </body>
 </html>
